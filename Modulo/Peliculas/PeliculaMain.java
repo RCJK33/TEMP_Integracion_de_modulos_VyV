@@ -129,6 +129,6 @@ public class PeliculaMain {
         } while (Integer.parseInt(opcion) != 9);
 
         // Se comento por eerores en ejecucion
-        //ptr.close();
+        ptr.close();
     }
 }
