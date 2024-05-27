@@ -3,7 +3,6 @@ package Modulo;
 import java.io.IOException;
 import java.util.Scanner;
 import Modulo.Cines.Cines;
-import Modulo.Peliculas.Metodos_principal;
 import Modulo.Peliculas.PeliculaMain;
 
 
@@ -71,7 +70,7 @@ public class Main {
                 System.out.println("Dulceria");
                 // Implemntacion de Dulceria
 
-                /* NOTA_Propia: No se implemento la clase Dulceria, por lo que no se puede evaluar
+                /* Nota para el equipo: No se implemento la clase Dulceria, por lo que no se puede evaluar
                  * No se implemntó debido a errores con el manejo de paquetes, no se pudo importar.
                  */
 
