@@ -1,7 +1,10 @@
+
+
 /**
  *
  * @author Gael
  */
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -58,6 +61,22 @@ public class Dulceria {
             e.printStackTrace();
         }
     }
+
+    /*
+     * NOTA_Propia: El metdo Dulcesentock() tiene el docorador de funcion SupressWarnings
+     * para evitar advertencias de recursos no cerrados en el scanner, probablemnte el
+     * compañero queria evitar el warning de que el scanner que dice  Resource leak: 'sc' is never closed
+     * Para corregir esto es necesrio usar el metodo close() para cerrar el scanner.
+     * 
+     * Un warning es un mensaje que nos da el compilador para advertirnos de posibles errores
+     * en nuestro código, pero no impide que el código se ejecute.
+     * Se debe tener cuidado con los warnings, y deben ser tratados como errores o deben ser corregidos
+     * antes de una liberacion fina de software.
+     * 
+     * Revisar The Power of 10: Rules for Developing Safety-Critical Code en
+     * https://web.eecs.umich.edu/~imarkov/10rules.pdf
+     */
+
     // METODO PARA CARGAR LOS DULCES DEL ARCHIVO CSV 🠟🠟
     @SuppressWarnings("resource") // Suprimir advertencias de recursos no cerrados en el scanner
     public static void Dulcesentock(ArrayList<Dulce> Dulces) { // Este metodo carga los dulces del archivo CSV a la

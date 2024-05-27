@@ -9,6 +9,16 @@ import java.util.ArrayList;
 // Clase que contiene métodos relacionados con las operaciones principales del programa
 public class Metodos_principal {
 
+    /*
+     * NOTA_Propia: La clase Validar_Pelicula no cumple con los principios SOLID
+     * tratarce de una clase que contiene metodos para realizar validaciones a datos
+     * de entrada, se puede decir que esta clase es una clase de utilidad, ya que se
+     * encarga de realizar operaciones que son comunes en varios puntos del programa.
+     * 
+     * Aun asi, esta clase contiene metodos que no tienen una responsabilidad unica
+     * debido a que se encarga de realizar operaciones de lectura y escritura de
+     * archivos, ademas de realizar operaciones de validacion de datos de entrada.
+     */
     // Instancia de la clase Validar_Pelicula para validar entradas de datos
     Validar_Pelicula validaPeli = new Validar_Pelicula();
 

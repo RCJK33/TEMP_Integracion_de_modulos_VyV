@@ -128,6 +128,7 @@ public class PeliculaMain {
             }
         } while (Integer.parseInt(opcion) != 9);
 
-        ptr.close();
+        // Se comento por eerores en ejecucion
+        //ptr.close();
     }
 }

@@ -1,6 +1,12 @@
 
-----Sucursal Nombre----
-Ubicacion: tepic
-RFC: 123
+----Sucursal rafa----
+Ubicacion: Rafas casas
+RFC: CSscaskda 
 Fuera de servicio: false
 Salas: 
+	
+Codigo de la sala: 12
+	Tamano: Grande
+	Numero de asientos: 400
+	Tipo: Normal
+	Fuera de servicio: false
